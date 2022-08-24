@@ -1,5 +1,6 @@
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -16,6 +17,9 @@ public class TestNG_01 {
         System.out.println(response.getStatusLine());
         System.out.println(response.getHeader("content-type"));
         System.out.println(response.getTime());
+
+        int statusCode = response.getStatusCode();
+        Assert.assertEquals(statusCode, 200);
 
 
 
