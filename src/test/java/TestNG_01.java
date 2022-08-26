@@ -21,6 +21,9 @@ public class TestNG_01 {
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 200);
 
+        int statusCode1 = response.getStatusCode();
+        Assert.assertEquals(statusCode1, 200);
+
 
 
     }
