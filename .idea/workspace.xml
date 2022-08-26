@@ -4,9 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69111c9f-8039-4337-965b-d3f340916c02" name="Changes" comment="New Test">
+    <list default="true" id="69111c9f-8039-4337-965b-d3f340916c02" name="Changes" comment="Add assert">
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/RestAssuredDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/RestAssuredDemo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNG_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/RestAssuredDemo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +51,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -34,7 +68,9 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2DncTHujfZyZWvkNpMgfK7o2Zck" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,23 +78,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestNG_01 (1)">
-    <configuration name="TestNG_01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNG_01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestNG_01">
     <configuration name="TestNG_01" type="TestNG">
       <module name="RestAssuredDemo" />
       <shortenClasspath name="NONE" />
@@ -74,6 +100,7 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -81,6 +108,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNG_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNG_01" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestNG_01" />
+      <item itemvalue="TestNG.TestNG_01 (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestNG_01 (1)" />
@@ -103,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661362882380</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add assert">
+      <created>1661364140302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661364140302</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,7 +177,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Test" />
+    <MESSAGE value="Add assert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assert" />
   </component>
 </project>
